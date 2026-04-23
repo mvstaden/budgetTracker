@@ -5,9 +5,9 @@ const SignUpForm = () => {
   return (
     <form className="flex flex-col gap-4">
       <Input
-        label={"FullName"}
+        label={"Full name"}
         name={"fullname"}
-        placeholder={"Enter fullname"}
+        placeholder={"Enter your full name"}
         inputType={"text"}
       />
       <Input
